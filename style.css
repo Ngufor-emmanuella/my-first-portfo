@@ -14,7 +14,6 @@ header {
   background-color: white;
 }
 
-
 header a {
   text-decoration: none;
   font-style: normal;
@@ -77,15 +76,17 @@ li a {
   text-decoration: none;
   color: #344563;
 }
+
 li a:hover {
   border-bottom: 2px solid blue;
 }
+
 .active {
   background-color: white;
-  }
+}
 
-  li {
-    display: inline;
-    float: right;
-    padding: 5px;
-  }
+li {
+  display: inline;
+  float: right;
+  padding: 5px;
+}
