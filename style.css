@@ -55,12 +55,13 @@ h2 {
 }
 
 .body {
-  background-image: url('images/header-shapes\ mobile.png');
+  background-image: url('headershapesmobile@2x.png');
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100vh;
+  border-collapse: collapse;
   background-color: white;
   border-radius: 0 0 0 35px;
+  padding-bottom: 100px;
 }
 
 .social {
@@ -69,4 +70,23 @@ h2 {
   list-style-type: none;
   margin-left: 15px;
   width: 180px;
+}
+
+li a {
+  text-decoration: none;
+  color: #344563;
+}
+
+li a:hover {
+  border-bottom: 2px solid blue;
+}
+
+.active {
+  background-color: white;
+}
+
+li {
+  display: inline;
+  float: right;
+  padding: 5px;
 }
