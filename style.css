@@ -60,9 +60,9 @@ h2 {
   background-repeat: no-repeat;
   background-size: cover;
   border-collapse: collapse;
-  height: 100vh;
   background-color: white;
   border-radius: 0 0 0 35px;
+  padding-bottom: 100px;
 }
 
 .social {
@@ -72,22 +72,7 @@ h2 {
   margin-left: 15px;
   width: 180px;
 }
-.up {
-  list-style-type: none;
-position: absolute;/* to make it move to the top right section of the page */
-right: 200px;/* it makes it at the exact position*/
-width: 63px;
-height: 20px;
-top: 10px;
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 50;
-font-size: 15px;
-line-height: 20px;
-display: flex;
-align-items: center;
-text-align: center;
-}
+
 li a {
   text-decoration: none;
   color: #344563;
