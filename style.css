@@ -77,22 +77,22 @@ body {
 }
 
 .body {
-border-radius: 0 0 0 35px;
-background-image: url("headershapesmobile@2x.png");
-background-repeat: no-repeat;
-background-color:white;
-background-size: cover;
-padding-bottom: 100px;
+  border-radius: 0 0 0 35px;
+  background-image: url("headershapesmobile@2x.png");
+  background-repeat: no-repeat;
+  background-color: white;
+  background-size: cover;
+  padding-bottom: 100px;
 }
 
-.project-container{
+.project-container {
   display: grid;
   grid-template-columns: 1fr;
   margin: 20px;
   margin-top: 100px;
 }
 
-.project{
+.project {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -107,16 +107,16 @@ padding-bottom: 100px;
   width: 295px;
   left: 0;
   top: 0;
-   font-family: 'poppins', sans-serif;
-   font-style: normal;
-   font-weight: 800;
-   font-size: 32px;
-   line-height: 44px;
-   color: #172b4d;
-   margin-top: 15px;
-   margin-bottom: 15px;
+  font-family: 'poppins', sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 32px;
+  line-height: 44px;
+  color: #172b4d;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
-  
+
 .project ol {
   list-style: none;
   display: flex;
@@ -247,7 +247,6 @@ padding-bottom: 100px;
   background: #6070ff;
   color: white;
   border: none;
-
 }
 
 .project button:active,
@@ -365,8 +364,9 @@ padding-bottom: 100px;
   font-family: 'poppins', sans-serif;
   margin-left: 10px;
   background-color: #f7f7f9;
-  color:#253858;
+  color: #253858;
 }
+
 .ok {
   list-style-type: none;
   margin-left: 30px;
@@ -377,8 +377,8 @@ padding-bottom: 100px;
   border-bottom: 2px solid #dfe1e6;
 }
 
-.fa-solid, .fas {
-  font-family: "Font Awesome 6 Free";
+.fa-solid,
+.fas {
   font-weight: 900;
   padding: 15px 25px;
   position: absolute;
@@ -389,11 +389,9 @@ padding-bottom: 100px;
   padding-bottom: 10px;
   margin-bottom: 20px;
 }
+
 nav img {
   position: absolute;
   float: right;
   right: 20px;
-}
-.skills {
-  list-style: none;
 }
