@@ -3,7 +3,6 @@
   padding: 0;
 }
 
-
 body {
   font-family: 'Poppins', sans-serif;
 }
@@ -75,10 +74,6 @@ h1 {
   justify-content: space-between;
   width: 150px;
   margin-left: 24px;
-}
-
-body {
-  background-color: #e5e5e5;
 }
 
 .body {
@@ -213,6 +208,10 @@ body {
   padding: 4px 12px;
 }
 
+button:hover {
+  background-color: red;
+}
+
 .project button,
 .about button {
   position: static;
@@ -247,6 +246,18 @@ body {
   letter-spacing: 0.03em;
 }
 
+.contactform1 button {
+  font-style: normal;
+  font-weight: 500px;
+  font-size: 17px;
+  line-height: 24px;
+  color: #6070ff;
+  border-radius: 8px;
+  margin-top: 15px;
+  height: 48px;
+  width: 140px;
+}
+
 .project button:hover,
 .about button:hover {
   background: #6070ff;
@@ -254,8 +265,7 @@ body {
   border: none;
 }
 
-.project button:active,
-.about button:active {
+.project button:active {
   background: #2230d2;
   color: white;
   border: none;
@@ -376,6 +386,7 @@ nav img {
   font-weight: normal;
   background-color: #f7f7f9;
 }
+
 .contactform1 {
   background-color: #6070ff;
   background-image: url("images/contact-mobile-bg.png");
@@ -390,7 +401,7 @@ nav img {
 
 .contactform1 h1 {
   padding-top: 15px;
-  color:  #fff;
+  color: #fff;
   font-size: 40px;
   font-weight: 700;
   line-height: 52px;
@@ -409,17 +420,6 @@ nav img {
   border-radius: 8px;
 }
 
-.contactform1 form input {
-  width: 100%;
-  padding-bottom: 25px;
-  font-weight: 400px;
-  font-size: 17px;
-  line-height: 20px;
-  border-radius: 8px;
-  margin-top: 15px;
-  border: none;
-}
-
 .contactform1 form textarea {
   width: 100%;
   font-weight: 400px;
@@ -432,23 +432,18 @@ nav img {
   border: none;
 }
 
-.contactform1 button {
-   font-style: normal;
-   font-weight: 500px;
-   font-size: 17px;
-   line-height: 24px;
-   color: #6070ff;
-   border-radius: 8px;
-   margin-top: 15px;
-   height: 48px;
-   width: 140px;
-}
-
-.contactform1 input  {
+.contactform1 input {
   padding-top: 15px;
   padding-left: 10px;
- 
 }
-button:hover {
-  background-color: red;
+
+.contactform1 form input {
+  width: 100%;
+  padding-bottom: 25px;
+  font-weight: 400px;
+  font-size: 17px;
+  line-height: 20px;
+  border-radius: 8px;
+  margin-top: 15px;
+  border: none;
 }
