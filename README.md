@@ -36,6 +36,7 @@ You should have a knowledge on the following technologies
 
 👤 **Agasha Bornittah**
 GitHub: [Bornittah](https://github.com/Bornittah)
+
 👤 **Abby Nyakara**
 GitHub: [AbbyNyakara](https://github.com/AbbyNyakara)
 
