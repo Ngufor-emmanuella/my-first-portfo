@@ -39,6 +39,10 @@ You should have a knowledge on the following technologies
 
 👤 **Abby Nyakara**
 - GitHub: [AbbyNyakara](https://github.com/AbbyNyakara)
+GitHub: [Bornittah](https://github.com/Bornittah)
+
+👤 **Abby Nyakara**
+GitHub: [AbbyNyakara](https://github.com/AbbyNyakara)
 
 ## 🤝 Contributing
 
