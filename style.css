@@ -417,6 +417,7 @@ nav img {
   line-height: 20px;
   border-radius: 8px;
   margin-top: 15px;
+  border: none;
 }
 
 .contactform1 form textarea {
@@ -428,6 +429,7 @@ nav img {
   margin-top: 15px;
   padding-top: 15px;
   padding-left: 15px;
+  border: none;
 }
 
 .contactform1 button {
@@ -435,11 +437,11 @@ nav img {
    font-weight: 500px;
    font-size: 17px;
    line-height: 24px;
-  color: #6070ff;
-  border-radius: 8px;
-  margin-top: 15px;
-  height: 48px;
-  width: 140px;
+   color: #6070ff;
+   border-radius: 8px;
+   margin-top: 15px;
+   height: 48px;
+   width: 140px;
 }
 
 .contactform1 input  {
