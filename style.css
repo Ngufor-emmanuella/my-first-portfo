@@ -208,6 +208,10 @@ h1 {
   padding: 4px 12px;
 }
 
+button {
+  border: none;
+}
+
 button:hover {
   background-color: #6070ff;
   color: #fff;
@@ -260,10 +264,6 @@ button:hover {
   width: 140px;
   border-bottom: none;
   border-right: none;
-}
-
-button {
-  border: none;
 }
 
 .project button:active {
