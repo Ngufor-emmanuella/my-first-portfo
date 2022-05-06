@@ -170,10 +170,7 @@ h1 {
   list-style: none;
   display: flex;
   justify-content: space-between;
-  position: static;
-  width: 180px;
-  left: 12px;
-  top: 4px;
+  width: max-content;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -182,6 +179,7 @@ h1 {
   letter-spacing: 0.03em;
   color: #6070ff;
   margin-bottom: 15px;
+  gap: 10px;
 }
 
 .languages li {
@@ -217,19 +215,14 @@ button:hover {
   color: #fff;
 }
 
-.project button,
-.about button {
-  position: static;
-  width: 135px;
+.button {
+  width: max-content;
   height: 50px;
-  left: 12px;
-  top: 12px;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 300;
   font-size: 19.5px;
   line-height: 20px;
-  display: flex;
   align-items: center;
   text-align: center;
   letter-spacing: 0.03em;
@@ -240,35 +233,14 @@ button:hover {
   padding: 9.2px;
 }
 
-.about .button {
-  width: 150px;
-  height: 40px;
-  font-size: 17px;
-  font-style: normal;
-  font-weight: 100;
-  color: #396df2;
-  line-height: 24px;
-  letter-spacing: 0.03em;
-}
-
-.contactform1 button {
-  font-style: normal;
-  font-weight: 500px;
-  font-size: 17px;
-  line-height: 24px;
-  color: #6070ff;
-  background-color: #fff;
-  border-radius: 8px;
-  margin-top: 15px;
-  height: 48px;
-  width: 140px;
-  border-bottom: none;
-  border-right: none;
-}
-
-.project button:active {
+.button:active {
   background: #2230d2;
   color: white;
+}
+
+.button:disabled {
+  border: 1px solid #c1c7d0;
+  color: #5e6c84;
 }
 
 .about {
