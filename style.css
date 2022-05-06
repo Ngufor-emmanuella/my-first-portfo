@@ -7,6 +7,11 @@ body {
   font-family: 'Poppins', sans-serif;
 }
 
+.flex-container {
+  display: flex;
+  flex-direction: column;
+}
+
 .header {
   display: flex;
   justify-content: space-between;
