@@ -1,6 +1,10 @@
 * {
   margin: 0;
   padding: 0;
+  
+}
+ul li {
+  list-style-type: none;
 }
 
 body {
@@ -20,7 +24,7 @@ body {
   background-color: white;
 }
 
-header a {
+header .logo {
   text-decoration: none;
   font-style: normal;
   font-weight: 800;
@@ -424,4 +428,19 @@ nav img {
   border-radius: 8px;
   margin-top: 15px;
   border: none;
+}
+@media screen and (min-width:780px) {
+  .nav .ham {
+    display: none;
+  }
+
+  .nav .navbar {
+    display: flex;
+    gap: 20px;
+}
+.navlinks {
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
 }
