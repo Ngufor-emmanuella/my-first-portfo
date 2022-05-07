@@ -1,4 +1,27 @@
-h1 {
+.section0 {
+  margin: 5px;
+  display: grid;
+}
+.section0 .grid-container {
+  display: grid;
+}
+.flex-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.grid-container {
+  display: grid;
+  padding-right: 5px;
+}
+
+.flex-container {
+  display: flex;
+  gap: 10px;
+  border: 2px;
+}
+
+.flex-items h1 {
   font-weight: 900;
 font-size: 40px;
 line-height: 52px;
@@ -10,7 +33,7 @@ padding-top: 100px;
 font-family: 'Poppin', sans-serif;
 }
 
-.body p {
+.flex-items p {
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
@@ -25,7 +48,7 @@ font-family: 'Poppin', sans-serif;
   margin-left: 24px;
 }
 
-.body h2 {
+.flex-items h2 {
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
@@ -38,7 +61,13 @@ font-family: 'Poppin', sans-serif;
   margin-top: 12px;
 }
 
-.social {
+.flex-items6 .flex-items {
+  display: flex;
+  flex-direction: row;
+
+}
+
+.sec .social {
   display: flex;
   list-style: none;
   justify-content: space-between;
@@ -46,24 +75,52 @@ font-family: 'Poppin', sans-serif;
   margin-left: 24px;
 }
 
-.grid-container {
-  display: grid;
-  padding-left: 10%;
-  
-}
-.flex-container {
+.section .flex-container {
   display: flex;
   gap: 20px;
+}
+.es li img {
+ padding-right: 1px;
+}
+.es p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #344563;
+  padding: 15px;
+  font-family: 'Poppins', sans-serif;
+  position: static;
+  width: 327px;
+  left: 24px;
+  top: 276px;
+  font-style: normal;
+  margin-left: 24p
+}
+.big1 {
+  list-style: none;
+display: flex;
+justify-content: space-between;
+width: 29px;
+top: 4px;
+font-family: 'Poppins', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 16px;
+color: #6070ff;
+
+}
+.flex-item6 .flex-item {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+
 }
   
 
 .flex-item {
   flex: 1;/*instruct the flex items to grow and fill the width of the container*/
  
-}
-.flex-item,img src {
-  width: 544px;
-  height: 448px;
 }
 
 .big {
@@ -80,7 +137,6 @@ body {
 
 div ol {
   list-style: none;
-  justify-content: space-between;
   font-weight: 400;
   font-style: normal;
   font-size: 12px;
@@ -88,8 +144,6 @@ div ol {
   color: #68778c;
   font-family: 'poppins', sans-serif;
   display: flex;
-  position: static;
-  left: 0;
   top: 8px;
   padding-right: 3px;
 
@@ -101,19 +155,7 @@ div ol {
   line-height: 10px;
   color: #344563;
 }
-.big1 {
-  list-style: none;
-display: flex;
-justify-content: space-between;
-width: 29px;
-top: 4px;
-font-family: 'Poppins', sans-serif;
-font-style: normal;
-font-weight: 500;
-font-size: 12px;
-line-height: 16px;
-color: #6070ff;
-}
+
 .contact {background-color: #6070ff;
 background-image: url("images/contact-mobile-bg.png");
 background-size: contain;
